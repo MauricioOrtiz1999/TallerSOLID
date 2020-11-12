@@ -9,7 +9,7 @@ package Leche;
  *
  * @author Pedro Mendoza
  */
-public class LecheDescremada extends LecheEntera {
+public class LecheDescremada extends LecheEntera implements ParaHelado, ParaPastel {
     
     @Override
     public void usarHelado() {
@@ -19,6 +19,5 @@ public class LecheDescremada extends LecheEntera {
     @Override
     public void usarPastel() {
         System.out.println("Usando leche descremada");
-    }
-    
+    }    
 }
