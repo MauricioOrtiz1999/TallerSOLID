@@ -27,7 +27,7 @@ public class Postre {
         return aderezos;
     }
 
-    public void anadirAderezo(Aderezo aderezo){
+    public void añadirAderezo(Aderezo aderezo){
         aderezos.add(aderezo);
     }
     

@@ -9,10 +9,10 @@ package Leche;
  *
  * @author Pedro Mendoza
  */
-public class LecheDeslactosada extends LecheEntera implements ParaHelado {
+public class LecheDeslactosada extends LecheEntera{
     
     @Override
-    public void usarHelado() {
+    public void cambiarLeche() {
         System.out.println("Usando leche deslactosada");
     }
 }
