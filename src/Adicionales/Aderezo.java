@@ -9,6 +9,19 @@ package Adicionales;
  *
  * @author Pedro Mendoza
  */
-public enum Aderezo {
-    MALVAVISCOS,FRUTILLA,CREMA    
+//MALVAVISCOS,FRUTILLA,CREMA 
+
+public abstract class Aderezo {
+    protected String nombre;
+    
+    public Aderezo(String nombre) {
+        this.nombre=nombre;
+    }
+    
+    public abstract void setNombre(String nombre);
+
+    public String toString() {
+        return "Aderezo: " + nombre.toUpperCase();
+    }
+       
 }
