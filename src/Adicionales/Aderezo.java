@@ -10,6 +10,5 @@ package Adicionales;
  * @author Pedro Mendoza
  */
 public enum Aderezo {
-    MALVAVISCOS,FRUTILLA,CREMA
-    
+    MALVAVISCOS,FRUTILLA,CREMA    
 }

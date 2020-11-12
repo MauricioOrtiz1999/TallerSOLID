@@ -26,5 +26,4 @@ public class ManejadorDeLeche {
             leche.usarHelado();
         }
     }
-    
 }
